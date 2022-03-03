@@ -1,11 +1,10 @@
 /* Escreva seu código aqui */
-
 *{
     font-family: sans-serif;
 }
 
 body{
-    background: pink
+    background: linear-gradient(190deg, pink, rgb(193, 144, 216));
 }
 
 h1{
