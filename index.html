@@ -4,9 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
   <title>Document</title>
 </head>
 <body>
   <!-- Escreva seu código aqui -->
+
+  <div id="container">
+
+    <h1>Magic 8-ball </h1>
+
+    <ul>
+      <h2>Instruções: </h2>
+      <li>Escreva a sua pergunta no quadro.</li>
+      <li>Clique no botão para ver a resposta do orbe.</li> 
+    </ul>
+
+    <textarea name="areaPergunta" id="caixaPergunta" cols="40" rows="4"></textarea>
+
+    <div id="bolaDeRespostas">
+      <p id="resposta"> Pergunte algo </p>
+    </div>
+
+    <button id="botaoPergunta"> Perguntar </button>
+
+  </div>
+
+  <script type="module" src="./src/models/botao.js"></script>
 </body>
 </html>
